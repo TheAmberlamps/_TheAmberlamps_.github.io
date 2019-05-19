@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Paul Unsted's Online Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <header>
+
+        <!-- This header has been the bane of my existence. I've been unable to style its colors and alignments properly, and most of my attempts have broken the existing page in terrible ways. I tried floating h1 to the left for example, but it ended up squashed down into the body of the page for some unfathomable reason.
+        
+        At least the navbar works properly.-->
+
+        <h1>Paul Unsted</h1>
+        
+        <nav>
+            <ul>
+                <li><a class="home" href="index.html">Home</a></li>
+                <li><a class="portfolio" class="active" href="#portfolio">Portfolio</a></li>
+                <li><a class="contact" href="contact.html">Contact Me</a></li>
+            </ul>
+        </nav>
+    
+    </header>
+    
+    <section>
+    
+        <h2>Portfolio</h2>
+
+        <!-- I consider it a personal vicotry that I was able to finally overlay text on these images. Sadly, for some reason they are now all displaying in a single column that moves underneath my footer. Making a list of them does not seem to be a solution to my problem, but I suspect that's a matter of my limited understanding of css.-->
+
+        <ul id="gallery">
+            <li><div class="textcontainer">
+            <img src="assets/images/angery.jpg" alt="broken image">
+            <div class="textitself">RPG Game</div></div></li>
+            <li><div class="textcontainer">
+            <img src="assets/images/antipods.jpg" alt="broken image">
+            <div class="textitself">Hangman</div></div></li>
+            <li><div class="textcontainer">
+            <img src="assets/images/city.jpg" alt="broken image">
+            <div class="textitself">Trivia game</div></div></li>
+            <li><div class="textcontainer">
+            <img src="assets/images/tablet.jpg" alt="broken image">
+            <div class="textitself">Rutgers Info Widget</div></div></li>
+            <li><div class="textcontainer">
+            <img src="assets/images/turntable.jpg" alt="broken image">
+            <div class="textitself">Rock Paper Scissors</div></div></li>
+        </ul>
+
+    </section>
+
+    <footer>
+
+        <p>Copyright©</p>
+    
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,184 @@
+a{
+
+    text-decoration: none;
+
+}
+
+
+header{
+
+    /* width:960px; */
+    /* position:absolute; */
+    top:0;
+    margin:auto;
+    background-color:#ffffff;
+
+}
+
+
+h1{
+
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    background: #4aaaa5;
+    border: 10px solid #4aaaa5; 
+    color: #ffffff;
+    text-align:center;
+
+}
+
+
+h2, h3, h4, h5, h6{
+
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+    background: #ffffff;
+    padding-bottom: 10px;
+    border-bottom: 2px solid gray;
+    
+}
+
+
+nav{
+
+float:right;
+
+}
+
+
+#mugshot{
+
+    float:left;
+    padding-right:20px;
+    
+
+}
+
+
+#about{
+
+    /* display:block; */
+    line-height: 200%;
+
+}
+
+
+.home{
+
+    border-right: 1px solid gray;
+    padding-right: 5px;
+
+}
+
+
+.portfolio{
+
+    border-right: 1px solid gray;
+    padding-right: 5px;
+
+}
+
+
+.textcontainer{
+
+    position:relative;
+
+}
+
+.textitself{
+
+    position: absolute;
+    bottom:10%;
+    width:33.3%;
+    border:10px solid #4aaaa5;
+    border-right:none;
+    border-left:none;
+    text-align:center;
+    /* left:70px; */
+    color:white;
+    background-color: #4aaaa5;
+
+}
+
+
+li{
+
+    column-count: 2;
+    column-width: 33.3%;
+    display: inline;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+img{
+
+    height:33.3%;
+    width:33.3%;
+
+}
+
+
+section{
+
+    /* display:inline; removed background  */
+    /* border-top:5px solid gray; for some reason displays at the top of body, not section? */
+    width:920px;
+    color: #777777;
+    background: #ffffff;
+    padding:20px;
+    margin:auto;
+
+}
+
+
+body{
+
+    background-image: url("../images/topography.png"); 
+    margin: auto;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+
+}
+
+
+input[type=text], select{
+    
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    /* border: 1px solid #ccc; */
+    box-sizing: border-box;
+
+}
+
+
+#fatfield{
+    
+    width: 100%;
+    height: 200px;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    /* border: 1px solid #ccc; */
+    box-sizing: border-box;
+
+}
+
+
+footer{
+
+    /* border-color: #4aaaa5; */
+    position:absolute;
+    bottom:0;
+    border-top: 5px solid #4aaaa5;
+    background-color: #666666;
+    color:#ffffff;
+    padding-top: 40;
+    width:100%;
+    text-align: center;
+    height: 40px;
+    bottom: 0px;
+
+}
